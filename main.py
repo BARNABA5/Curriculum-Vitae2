@@ -46,7 +46,7 @@ st.markdown(page_bg, unsafe_allow_html=True)
 col1, col2 = st.columns([1, 4])
 
 with col1:
-    image = Image.open("Philip.jpg")  # Make sure this is in the same folder
+    image = Image.open("philip.jpg")  # Make sure this is in the same folder
     st.image(image, caption="Barney Phil", width=150, output_format="auto")
 
 with col2:
@@ -116,3 +116,4 @@ st_lottie(lottie_animation, height=300, key="smartfix")
 st.markdown("---")
 st.write("⚡ Built with [Streamlit](https://streamlit.io/) by Barnabas Shivayilu")
 st.write("All rights reserved Barney Enterprises. © 2024")
+
